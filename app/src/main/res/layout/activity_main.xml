@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+    </LinearLayout>
+
+
+    <TextView
+        android:id="@+id/number_day"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/colorPrimaryDark"
+        android:text="                       22nd SEPTEMBER 2016"
+        android:textColor="@color/White"
+        android:textSize="20dp" />
+
+    <LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+        android:orientation="vertical"/>
+
+    <TextView
+        android:id="@+id/LHR_"
+        android:textColor="@color/colorPrimaryDark"
+        android:layout_width="60dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="70dp"
+        android:layout_marginTop="70dp"
+        android:text="LHR"
+        android:textSize="30dp" />
+
+    <TextView
+        android:id="@+id/lond"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:text="London"
+        android:layout_marginLeft="70dp"/>
+<ImageView
+    android:id="@+id/flyy"
+    android:src="@drawable/fly"
+    android:layout_width="40dp"
+    android:layout_height="40dp"
+    android:layout_marginLeft="190dp"
+    android:layout_marginTop="-55dp"/>
+    <TextView
+        android:textColor="@color/colorPrimaryDark"
+        android:layout_width="60dp"
+        android:layout_height="wrap_content"
+        android:text="JFK"
+        android:textSize="30dp"
+        android:layout_marginLeft="300dp"
+        android:layout_marginTop="-50dp"/>
+    <TextView
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:text="New York"
+        android:layout_marginLeft="300dp"/>
+    <TextView
+        android:id="@+id/nam"
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:text="NAME"
+        android:layout_marginLeft="180dp"
+        android:layout_marginTop="50dp"/>
+    <TextView
+        android:id="@+id/name"
+        android:textColor="@color/colorPrimaryDark"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Jamie Syke"
+        android:textSize="30dp"
+        android:layout_marginLeft="130dp"/>
+    <TextView
+        android:id="@+id/fli"
+        android:layout_width="40dp"
+        android:layout_height="20dp"
+        android:text="FLIGHT"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="70dp"/>
+    <TextView
+        android:id="@+id/va"
+        android:textColor="@color/colorPrimaryDark"
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:text="VA301"
+        android:textSize="30dp"
+        android:layout_marginLeft="60dp"/>
+    <TextView
+        android:id="@+id/sea"
+        android:layout_width="40dp"
+        android:layout_height="20dp"
+        android:text="SEAT"
+        android:layout_marginLeft="300dp"
+        android:layout_marginTop="-60dp"/>
+    <TextView
+        android:id="@+id/toa"
+        android:textColor="@color/colorPrimaryDark"
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:textSize="30dp"
+        android:text="21A"
+        android:layout_marginLeft="290dp"/>
+    <TextView
+        android:id="@+id/depa"
+        android:layout_width="60dp"
+        android:layout_height="20dp"
+        android:text="DEPARTS"
+        android:layout_marginLeft="67dp"
+        android:layout_marginTop="60dp"/>
+    <TextView
+        android:id="@+id/five"
+        android:textColor="@color/colorPrimaryDark"
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:textSize="30dp"
+        android:text="15:40"
+        android:layout_marginLeft="60dp"/>
+    <TextView
+        android:id="@+id/arriv"
+        android:layout_width="70dp"
+        android:layout_height="20dp"
+        android:text="ARRIVES
+"        android:layout_marginLeft="290dp"
+        android:layout_marginTop="-60dp"/>
+    <TextView
+        android:id="@+id/nine"
+        android:textColor="@color/colorPrimaryDark"
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:text="19:01"
+        android:textSize="30dp"
+        android:layout_marginLeft="280dp"/>
+    <ImageView
+        android:id="@+id/shtr"
+        android:src="@drawable/shtrih"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="100dp"/>
+
+
+
+
+
+
+
+
+
+
+</LinearLayout>
